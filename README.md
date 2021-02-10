@@ -1,17 +1,17 @@
 ## Simple WPA2 Handshake Grabber
 
-# Introduction
+### Introduction
 
 This script helps you to grab handshake from near Wi-Fi Access Points who working with WPA2 protocol.
 
-# Install
+### Install
 
 For install grabber you should make clone of this repository.
 ```
-git clone // To od
+git clone https://github.com/CallowBlack/WPA2-Handshake-Grabber
 ```
 
-# Requirements
+### Requirements
 
 Script work with python 3 or higher.
 
@@ -21,16 +21,17 @@ Script work with python 3 or higher.
 
 For easy requirements install there is ***requirements.txt*** file. To use it:
 ```
-pip install -r requirements.txt
+> pip install -r requirements.txt
 ```
 
-# How to use
+### How to use
 
 For use script you have to have root previlegies.
 
 To get help usage use:
 ```
 > python3 hsgrabber.py -h
+
 usage: hsgrabber.py [-h] [-f FORMAT] iface output
 
 Tool for automating getting EAPOL handshakes
